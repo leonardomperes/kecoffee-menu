@@ -9,21 +9,21 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 50rem;
     color: #6F4E37;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 header img {
-    width: 122px;
+    width: 7.625rem;
     border: 2px solid #6F4E37;
     border-radius: 2rem;
     justify-content: center;
@@ -43,7 +43,7 @@ header h1 {
 
 
 .menu {
-    margin-bottom: 30px;
+    margin-bottom: 1.85rem;
 }
 
 details {
@@ -90,9 +90,9 @@ ul {
 }
 
 li {
-    padding: 8px 0;
+    padding: 0.5rem 0;
     display: flex;
-    font-size: 14px;
+    font-size: 1rem;
     justify-content: space-between;
     border-bottom: 1px dashed #ddd;
 }
@@ -100,8 +100,8 @@ li {
 
 footer {
     text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
+    margin-top: 1.875rem;
+    font-size: 1rem;
     color: #6F4E37;
 }
 
@@ -119,14 +119,18 @@ footer p {
 
 @media (max-width: 480px) {
     header h1 {
-        font-size: 24px;
+        font-size: 2rem;
     }
 
     header i {
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     footer {
-        font-size: 13px;
+        font-size: 1rem;
     }
+    .menu-category h3 {
+    font-size: 1rem;
+
+}
 }

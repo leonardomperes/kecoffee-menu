@@ -28,10 +28,9 @@ const menuItems = {
     ],
 
     snacks: [
-        "Croissant - R$ 7,00",
         "Pão de Queijo - R$ 6,00",
-
         "Hamburguer Assado - R$ 12,00",
+        "Salgados (Consultar Sabores) - R$8,00"
     ],
     drinks: [
         "Refrigerante <i>(Coca, Coca-Zero, Guaraná, Guaraná-Zero)</i> - R$ 5,00",
