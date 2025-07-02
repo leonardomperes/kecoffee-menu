@@ -31,7 +31,7 @@ const menuItems = {
         "Pão de Queijo - R$ 6,00",
         "Salgados (Consultar Sabores) - R$8,00",
         "Hamburguer Assado - R$ 12,00",
-        
+
     ],
     drinks: [
         "Refrigerante <i>(Coca, Coca-Zero, Guaraná, Guaraná-Zero)</i> - R$ 5,00",
@@ -54,7 +54,7 @@ const menuItems = {
         "Bauru - R$ 17,00",
         "Pão de Queijo Com Casquinha - R$ 9,00",
     ],
-    cakes:[
+    cakes: [
         "Bolo de Pote <i>(Consultar Sabores)</i> - R$21,00"
     ]
 
@@ -67,7 +67,7 @@ function loadMenu() {
     const coffeeBourbon = document.getElementById('coffee_BOURBON');
     const coffeeArara = document.getElementById('coffee_ARARA');
     const coffeeIce = document.getElementById('coffee_ICE');
-    
+
 
     const snacksList = document.getElementById('snacks');
     const drinksList = document.getElementById('drinks');
@@ -78,8 +78,10 @@ function loadMenu() {
         const [name, price] = item.split(" - "); // Divide "Nome - R$ X,XX"
         const li = document.createElement('li');
         li.innerHTML = `
+           
             <span class="item-name">${name}</span>
             <span class="item-price">${price}</span>
+            
         `;
         return li;
     };

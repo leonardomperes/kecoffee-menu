@@ -1,5 +1,5 @@
 body {
-    
+
     font-family: 'Josefin Sans', sans-serif;
     background-color: #f5f5f5;
     margin: 0;
@@ -20,7 +20,9 @@ body {
 header {
     text-align: center;
     margin-bottom: 1.25rem;
+
 }
+
 
 header img {
     width: 7.625rem;
@@ -48,17 +50,46 @@ header h1 {
 
 details {
     text-align: center;
+
+}
+
+details summary {
+    padding: 1rem;
+    border: 2px solid #6F4E37;
+    border-radius: 2rem;
 }
 
 details p {
     text-align: left;
+    font-size: 1.2rem;
 }
+
 details img {
     align-items: center;
     height: 15rem;
     width: fit-content;
 }
 
+details span {
+    padding: 0.25rem;
+    background-color: lightgreen;
+    border: 2px solid #6F4E37;
+    border-radius: 0.25rem;
+}
+
+.sensorial {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 2px solid #6F4E37;
+    border-radius: 0.25rem;
+}
+
+.sensorial ::first-line {
+    text-decoration: underline;
+}
 
 .menu h2 {
     text-align: center;
@@ -87,6 +118,17 @@ details img {
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+
+
+.item-name {
+    width: 70%;
+}
+
+.item-price {
+    width: 30%;
+    text-align: right;
 }
 
 li {
@@ -123,14 +165,15 @@ footer p {
     }
 
     header i {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     footer {
         font-size: 1rem;
     }
-    .menu-category h3 {
-    font-size: 1rem;
 
-}
+    .menu-category h3 {
+        font-size: 1rem;
+
+    }
 }
