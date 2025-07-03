@@ -24,12 +24,12 @@ const menuItems = {
         "Coado - R$ 17,00"
     ],
     coffees_ICE: [
-        "Ice Coffee <i>(Café, Leite, Cacau, <br>Gelo e Calda)</i> - R$18,00"
+        "Ice Coffee <i>(Café, Leite, Cacau, <br>Gelo e Calda)</i> - R$ 18,00"
     ],
 
     snacks: [
         "Pão de Queijo - R$ 6,00",
-        "Salgados (Consultar Sabores) - R$8,00",
+        "Salgados (Consultar Sabores) - R$ 8,00",
         "Hamburguer Assado - R$ 12,00",
 
     ],
@@ -55,7 +55,7 @@ const menuItems = {
         "Pão de Queijo Com Casquinha - R$ 9,00",
     ],
     cakes: [
-        "Bolo de Pote <i>(Consultar Sabores)</i> - R$21,00"
+        "Bolo de Pote <i>(Consultar Sabores)</i> - R$ 21,00"
     ]
 
 };
