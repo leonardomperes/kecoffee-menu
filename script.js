@@ -1,7 +1,7 @@
 // Atualiza a data automaticamente
-const dateElement = document.getElementById('date');
-const today = new Date();
-dateElement.textContent += today.toLocaleDateString('pt-BR');
+// const dateElement = document.getElementById('date');
+// const today = new Date();
+// dateElement.textContent += today.toLocaleDateString('pt-BR');
 
 // Cardápio dinâmico (pode ser substituído por uma API no futuro)
 const menuItems = {

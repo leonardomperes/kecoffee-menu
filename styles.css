@@ -37,6 +37,17 @@ header h1 {
     /* Cor café */
 }
 
+.message-clients {
+    border: 2px solid #6F4E37;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    color: #ddd;
+    line-height: 1.5rem;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    background-color: #6F4E37;
+}
+
 #date {
     font-weight: bold;
     color: #666;
@@ -72,7 +83,7 @@ details img {
 
 details span {
     padding: 0.25rem;
-    background-color: lightgreen;
+    background-color: #3BECC0;
     border: 2px solid #6F4E37;
     border-radius: 0.25rem;
 }
