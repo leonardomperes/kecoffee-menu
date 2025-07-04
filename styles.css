@@ -83,11 +83,14 @@ details img {
 
 details span {
     padding: 0.25rem;
-    background-color: #3BECC0;
-    border: 2px solid #6F4E37;
+    
+    background-color: #6F4E37;
+    color: #f5f5f5;
     border-radius: 0.25rem;
 }
-
+details a {
+    color: #6F4E37;
+}
 .sensorial {
     display: flex;
     flex-direction: column;
@@ -98,8 +101,9 @@ details span {
     border-radius: 0.25rem;
 }
 
-.sensorial ::first-line {
-    text-decoration: underline;
+.sensorial-title{
+    display: flex;
+    justify-content: center;
 }
 
 .menu h2 {
