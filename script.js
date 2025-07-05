@@ -26,7 +26,6 @@ const menuItems = {
     coffees_ICE: [
         "Ice Coffee <i>(Café, Leite, Cacau, <br>Gelo e Calda)</i> - R$ 18,00"
     ],
-
     snacks: [
         "Pão de Queijo - R$ 6,00",
         "Salgados (Consultar Sabores) - R$ 8,00",
@@ -34,14 +33,14 @@ const menuItems = {
 
     ],
     drinks: [
-        "Refrigerante <i>(Coca, Coca-Zero, Guaraná, Guaraná-Zero)</i> - R$ 5,00",
+        "Refrigerante <i>(Coca, Coca-Zero, Guaraná, Guaraná-Zero)</i> - R$ 6,00",
         "H20 - R$ 7,00",
         "Suco Natural <i>(Laranja, Acerola, Maracujá)<i/> - R$ 10,00",
         "Chá <i>(Consultar Sabores)</i> - R$ 7,00",
         "Água <i>(c/ e s/gás)</i> - R$ 4,00"
     ],
     plateOfFood: [
-        "Omelete do Leo <i>(3 Ovos, Banana, Mussarela, Mel e Canela)</i> - R$ 25,00",
+        "Omelete do Leo <i>(3 Ovos, Banana, Muçarela, Mel e Canela)</i> - R$ 25,00",
         "Omelete com Queijo e Bacon - R$ 15,00",
         "Omelete Simples - R$ 10,00",
         "Omelete com Queijo - R$ 12,00",
@@ -57,7 +56,6 @@ const menuItems = {
     cakes: [
         "Bolo de Pote <i>(Consultar Sabores)</i> - R$ 21,00"
     ]
-
 };
 
 // Preenche o cardápio
@@ -67,7 +65,6 @@ function loadMenu() {
     const coffeeBourbon = document.getElementById('coffee_BOURBON');
     const coffeeArara = document.getElementById('coffee_ARARA');
     const coffeeIce = document.getElementById('coffee_ICE');
-
 
     const snacksList = document.getElementById('snacks');
     const drinksList = document.getElementById('drinks');
@@ -90,7 +87,6 @@ function loadMenu() {
     menuItems.coffees_CATUAI.forEach(item => {
         coffeeCatuai.appendChild(formatItem(item));
     });
-
     // Preenche café NOVO MUNDO
     menuItems.coffees_NOVO_MUNDO.forEach(item => {
         coffeeNovoMundo.appendChild(formatItem(item));
@@ -116,14 +112,15 @@ function loadMenu() {
     menuItems.drinks.forEach(item => {
         drinksList.appendChild(formatItem(item))
     })
+
     // Preenche pratos
     menuItems.plateOfFood.forEach(item => {
         plateOfFoodList.appendChild(formatItem(item))
     })
+
     // Preenche doces
     menuItems.cakes.forEach(item => {
         cakesList.appendChild(formatItem(item))
     })
 }
-
 loadMenu();
