@@ -9,6 +9,7 @@ const menuItems = {
         "Espresso - R$ 8,00",
         "Com leite - R$ 10,00",
         "Cappuccino - R$ 12,00",
+        "Coado (serve duas pessoas) - R$ 15,00"
 
     ],
     coffees_NOVO_MUNDO: [
@@ -34,8 +35,10 @@ const menuItems = {
 
     snacks_SECONDARY: [
         "Pão na Chapa - R$ 8,00",
-        "Pão de Queijo Com Casquinha - R$ 9,00",
+        "Pão de Queijo Casquinha - R$ 9,00",
         "Pão Casquinha - R$ 10,00",
+        "Pão de Queijo Casquinha com Bacon - R$ 12,00",
+        "Pão de Queijo Casquinha com Calabresa - R$ 12,00",
         "Pão com Ovo - R$ 12,00",
         "Pão na Chapa com Requeijão na Saída - R$ 14,00",
         "Misto Quente - R$ 15,00",
@@ -50,18 +53,21 @@ const menuItems = {
         "Suco Natural <i>(Laranja, Acerola, Maracujá)<i/> - R$ 10,00",
     ],
     plateOfFood: [
-        "Omelete do Leo <i>(3 Ovos, Banana, Muçarela, Mel e Canela)</i> - R$ 25,00",
         "Omelete Simples - R$ 10,00",
         "Omelete com Queijo - R$ 12,00",
         "Omelete com Bacon - R$ 12,00",
         "Omelete com Calabresa - R$ 12,00",
         "Omelete com Queijo e Bacon - R$ 15,00",
         "Omelete com Queijo e Calabresa - R$ 15,00",
-
-
+        "Omelete do Leo <i>(3 Ovos, Banana, Muçarela, Mel e Canela)</i> - R$ 25,00",
     ],
     cakes: [
-        "Bolo de Pote <i>(Consultar Sabores)</i> - R$ 21,00"
+        "Carolina de Chocolate - R$ 3,00",
+        "Carolina de Limão - R$ 3,00",
+        "Cookie - R$ 6,00",
+        "Trufa - R$ 8,00",
+        "Brownie de Chocolate - R$ 10,00",
+        "Bolinho de Pote <i>(Consultar Sabores)</i> - R$ 16,00",
     ]
 };
 
@@ -112,6 +118,7 @@ function loadMenu() {
         coffeeArara.appendChild(formatItem(item));
     });
 
+    // Preenche café GELADO
     menuItems.coffees_ICE.forEach(item => {
         coffeeIce.appendChild(formatItem(item));
     });
