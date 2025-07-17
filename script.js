@@ -6,9 +6,9 @@
 // Cardápio dinâmico (pode ser substituído por uma API no futuro)
 const menuItems = {
     coffees_CATUAI: [
-        "Espresso - R$ 8,00",
-        "Com leite - R$ 10,00",
-        "Cappuccino - R$ 12,00",
+        // "Espresso - R$ 8,00",
+        // "Com leite - R$ 10,00",
+        // "Cappuccino - R$ 12,00",
         "Coado (serve duas pessoas) - R$ 15,00"
 
     ],
