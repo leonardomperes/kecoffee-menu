@@ -9,7 +9,7 @@ const menuItems = {
         // "Espresso - R$ 8,00",
         // "Com leite - R$ 10,00",
         // "Cappuccino - R$ 12,00",
-        "Coado (serve duas pessoas) - R$ 15,00"
+        "Coado - R$ 15,00"
 
     ],
     coffees_NOVO_MUNDO: [
@@ -68,6 +68,7 @@ const menuItems = {
         "Trufa - R$ 8,00",
         "Brownie de Chocolate - R$ 10,00",
         "Bolinho de Pote <i>(Consultar Sabores)</i> - R$ 16,00",
+        "Tortas <i>(Consultar Sabores)</i> - R$ 17,00"
     ]
 };
 
